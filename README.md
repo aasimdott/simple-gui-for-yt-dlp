@@ -20,17 +20,17 @@ sudo apt update && sudo apt install yt-dlp tor ffmpeg
 
 2. Installation
 
-    Download the latest yt-dlp-gui binary from the Releases page.
+    Download the latest UDM.Universal.Download.Module binary from the Releases page.
     Navigate to your downloads folder and make the binary executable:
     bash
 
-    chmod +x "UDM (Universal Download module)"
+    chmod +x UDM.Universal.Download.Module
 
 3. Usage
 Double-click the binary or run it via terminal:
 bash
 
-bash "UDM (Universal Download module)"
+./UDM.Universal.Download.Module
 
 ⚙️ Configuration & Features
 📂 Download Folder Selection
