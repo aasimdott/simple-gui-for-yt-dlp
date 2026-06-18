@@ -38,7 +38,7 @@ Before running the application, ensure you have the following system dependencie
 1. Open your terminal in the project directory.
 2. Launch the application:
    ```bash
-   python main.py
+   python Script.py
    ```
 3. Paste your desired video URL, configure your download directory, toggle Tor if needed, and click **Download**.
 
