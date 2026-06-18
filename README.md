@@ -47,7 +47,5 @@ Before running the application, ensure you have the following system dependencie
 - [PyQt6](https://riverbankcomputing.com) - The GUI framework used.
 - [yt-dlp](https://github.com) - The core download and scraping engine.
 - [FFmpeg](https://ffmpeg.org) - Multimedia framework for stream merging.
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Tor (Optional)
+- On port 9050
