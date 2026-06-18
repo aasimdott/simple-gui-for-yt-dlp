@@ -48,4 +48,4 @@ Before running the application, ensure you have the following system dependencie
 - [yt-dlp](https://github.com) - The core download and scraping engine.
 - [FFmpeg](https://ffmpeg.org) - Multimedia framework for stream merging.
 ## Tor (Optional)
-- In localhost on port 9050
+- In localhost on port :9050
