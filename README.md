@@ -24,8 +24,8 @@ Before running the application, ensure you have the following system dependencie
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com
-   cd YOUR-REPO-NAME
+   git clone https://github.com](https://github.com/aasimdott/simple-gui-for-yt-dlp.git
+   cd simple-gui-for-yt-dlp
    ```
 
 2. **Install Python dependencies:**
