@@ -212,7 +212,7 @@ class YtdlpGUI(QMainWindow):
         url_layout.addWidget(self.add_btn)
         main_layout.addLayout(url_layout)
 
-        # Configurations Box
+        # configurations box
         settings_layout = QHBoxLayout()
         self.res_combo = QComboBox()
         self.res_combo.addItems(["Best Quality", "4K (2160p)", "1080p", "720p"])
