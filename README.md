@@ -1,10 +1,10 @@
-# Multi-Threaded 4K Video Downloader
+# Multi-Threaded 16K Video Downloader
 
-A powerful, asynchronous desktop application built with Python and PyQt6 that leverages `yt-dlp` to download high-definition videos (up to 4K) from various streaming platforms. It features concurrent downloading, custom row UI elements, and built-in anonymity support via Tor proxy routing.
+A powerful, asynchronous desktop application built with Python and PyQt6 that leverages `yt-dlp` to download high-definition videos (up to 16K) from various streaming platforms. It features concurrent downloading, custom row UI elements, and built-in anonymity support via Tor proxy routing.
 
 ## 🚀 Features
 
-- **High-Resolution Support:** Downloads 1080p, 2K, and 4K media by automatically stitching video and audio streams.
+- **High-Resolution Support:** Downloads upto 16K media by automatically stitching video and audio streams.
 - **Multi-Threaded Performance:** Runs downloads on background `QThread` workers to keep the user interface smooth and responsive.
 - **Anonymity Toggle:** Route your traffic through a local Tor proxy with a single click to bypass IP throttling or geo-blocks.
 - **Clean UI:** Clean desktop interface built with PyQt6, featuring download progress bars and silent background processes (no flashing command prompts on Windows).
@@ -32,7 +32,10 @@ Before running the application, ensure you have the following system dependencie
    ```bash
    pip install PyQt6 yt-dlp
    ```
-
+   ```bash
+   pip install -U "yt-dlp[default]" curl_cffi
+   ```
+3. **Install ffmpeg**
 ## 💻 Usage
 
 1. Open your terminal in the project directory.
@@ -42,10 +45,5 @@ Before running the application, ensure you have the following system dependencie
    ```
 3. Paste your desired video URL, configure your download directory, toggle Tor if needed, and click **Download**.
 
-## 🛠️ Built With
-
-- [PyQt6](https://riverbankcomputing.com) - The GUI framework used.
-- [yt-dlp](https://github.com) - The core download and scraping engine.
-- [FFmpeg](https://ffmpeg.org) - Multimedia framework for stream merging.
 ## Tor (Optional)
 - In localhost on port :9050
