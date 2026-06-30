@@ -1,4 +1,4 @@
-# Multi-Threaded 16K Video Downloader
+# Multi-Threaded 16K Video Downloader--
 
 A powerful, asynchronous desktop application built with Python and PyQt6 that leverages `yt-dlp` to download high-definition videos (up to 16K) from various streaming platforms. It features concurrent downloading, custom row UI elements, and built-in anonymity support via Tor proxy routing.
 
